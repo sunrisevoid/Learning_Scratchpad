@@ -22,4 +22,4 @@ cp means copy. *cp item1 item2*
 -r recursive, it is called recursive because it repeats the same action for every directory it finds.
 -i interactive, prompt the user for confirmation before deleting a file.
 
-**I am adding this line to test something in GIT**
+alias only lasts for the shell's session
