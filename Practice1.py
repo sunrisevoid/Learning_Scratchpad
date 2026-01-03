@@ -34,4 +34,50 @@
 #     print('You are not Alice.')
 # quit()
 
+# spam = 1
+# while spam < 20:
+#     print('H' + ('e' * spam) + 'llo, w' + ('o' * spam) + 'rld' + ('!' * spam))
+#     spam = spam + 1
 
+# name = ''
+# hint = 'That is not your name. '
+# hp = 0
+# while name != 'your name':
+#     print((hint * hp) + 'Please type your name.')
+#     name = input()
+#     hp = 1
+# print('Thank you!')
+
+# hint = ''
+# while True:
+#     print(hint + 'Please type your name.')
+#     if input() == 'your name':
+#         break
+#     hint = 'That is not your name. '
+# print('Thank you!')
+
+# hint = ''
+# while input(hint + 'Please type your name: ') != 'your name':
+# 	hint = 'That is not your name. '
+# print('Thank you!')
+
+# while True:
+# 	print('Who are you?')
+# 	name = input()
+# 	if name != 'Joe':
+# 		continue
+# 	print('Hello, Joe. What is the password? (It is a fish.)')
+# 	password = input()
+# 	if password == 'swordfish':
+# 		break
+# print('Access granted.')
+
+name = ''
+while not name:
+	print('Enter your name:')
+	name = input()
+print('How many guests will you have?')
+numOfGuests = int(input())
+if numOfGuests:
+	print('Be sure to have enough room for all your guests.')
+print('Done')
