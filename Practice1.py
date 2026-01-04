@@ -72,12 +72,25 @@
 # 		break
 # print('Access granted.')
 
-name = ''
-while not name:
-	print('Enter your name:')
-	name = input()
-print('How many guests will you have?')
-numOfGuests = int(input())
-if numOfGuests:
-	print('Be sure to have enough room for all your guests.')
-print('Done')
+# name = ''
+# while not name:
+# 	print('Enter your name:')
+# 	name = input()
+# print('How many guests will you have?')
+# numOfGuests = int(input())
+# if numOfGuests:
+# 	print('Be sure to have enough room for all your guests.')
+# print('Done')
+
+# print('My name is')
+# for i in range(5):
+#     print('Jimmy Five Times (' + str(i) + ')')
+
+total = 0
+for num in range(101):
+    total = total + num
+print(total)
+
+
+
+
