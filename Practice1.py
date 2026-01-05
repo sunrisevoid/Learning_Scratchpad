@@ -86,11 +86,37 @@
 # for i in range(5):
 #     print('Jimmy Five Times (' + str(i) + ')')
 
-total = 0
-for num in range(101):
-    total = total + num
-print(total)
+# total = 0
+# for num in range(101):
+#     total = total + num
+# print(total)
 
+# print('What set of 6 numbers do you desire? Type "even" or "odd":')
+# while True:
+#     inp = input()
+#     if inp == 'even':
+#         for even in range(2, 14, 2):
+#             print(even)
+#         break
+#     elif inp == 'odd':
+#         for odd in range(1, 13, 2):
+#             print(odd)
+#         break
+#     else:
+#         print('Please type "even" or "odd: ')
 
-
-
+print('What set of 6 numbers do you desire? Type "even" or "odd":')
+while True:
+    inp = input()
+    if inp == 'even':
+        for even in range(2, 14, 2):
+            print(even)
+        if even == 12:
+            break
+    elif inp == 'odd':
+        for odd in range(1, 13, 2):
+            print(odd)
+        if odd == 11:
+            break
+    else:
+        print('Please type "even" or "odd: ')

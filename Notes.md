@@ -28,3 +28,5 @@ Practice Questions for chapter 1:
 9. int(), str(), float()
 10. Causes an error because it attempts to cat two strings with an integer, you fix it by converting the integer into a string with str(99) 
 ~~~
+
+range(start, up-to-but-not-including, interval)
